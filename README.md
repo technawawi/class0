@@ -64,3 +64,11 @@ Pola pikir (mindset) seorang programmer memainkan peran penting dalam kesuksesan
    - Skeptis terhadap asumsi dan mencari bukti nyata. Namun, tetap terbuka terhadap ide atau pendekatan baru.  
 
 Dengan mindset ini, programmer dapat menghadapi tantangan teknologi dan menyelesaikan masalah dengan lebih efektif. Apakah ada poin yang ingin Anda bahas lebih dalam? 😊
+
+=====================================================================
+
+Dynamic Logic
+-> Apapun inputnya logic harus tetep sama
+Dynamic Logic bisa dibuat dengan:
+1. Variabel
+2. Fungsi
