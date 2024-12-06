@@ -106,16 +106,20 @@ Fungsi f(n) digunakan untuk menghitung angka Fibonacci pada indeks n.
 Kondisi if n <= 2 mengembalikan 1 karena angka pertama dan kedua dalam deret Fibonacci adalah 1.
 Jika n > 2, maka fungsi akan memanggil dirinya sendiri (rekursif) untuk menghitung dua angka sebelumnya dan menjumlahkannya.
 Loop for n in range(1, 10) digunakan untuk mencetak hasil Fibonacci dari 1 sampai 9.
+
 Soal 2: Deret Modifikasi Fibonacci
 Deskripsi: Ini adalah versi modifikasi dari deret Fibonacci, di mana setiap angka adalah hasil penjumlahan tiga angka sebelumnya.
 Penjelasan Kode:
 Fungsi f(n) diubah sehingga n <= 3 mengembalikan 1, sementara untuk n > 3, fungsi ini menjumlahkan tiga angka sebelumnya.
 Fungsi rekursif ini akan terus dipanggil sampai memenuhi syarat dasar (n <= 3).
+
 Soal 3: FPB dan KPK
+
 Deskripsi: Fungsi untuk menghitung Faktor Persekutuan Terbesar (FPB) dan Kelipatan Persekutuan Terkecil (KPK) dari dua bilangan.
 Penjelasan Kode:
 Fungsi fpb(a, b) menggunakan Algoritma Euclidean untuk menghitung FPB dengan memanfaatkan operasi modulus (%).
 Fungsi kpk(a, b) menghitung KPK dengan rumus:
+
 𝐾
 𝑃
 𝐾
