@@ -96,9 +96,10 @@ Coba buat kasus sederhana: Seperti mencetak angka, mencari angka genap, atau men
 Gunakan print() untuk debugging: Lihat nilai variabel di setiap langkah.
 
 
-catatan tanggal 6 desember 2024
+--------catatan tanggal 6 desember 2024-------------------
 
 Catatan Pembacaan Kode Python untuk Soal-Soal Logika dan Pola
+
 Soal 1: Deret Fibonacci
 Deskripsi: Deret Fibonacci adalah deret angka yang dimulai dengan 0 dan 1, kemudian setiap angka berikutnya adalah hasil penjumlahan dua angka sebelumnya.
 Penjelasan Kode:
@@ -152,22 +153,26 @@ Penjelasan Kode:
 Variabel UKURAN = 9 digunakan untuk menentukan ukuran grid.
 Nested loops (for x in range(1, UKURAN + 1) dan for y in range(1, UKURAN + 1)) digunakan untuk mencetak setiap elemen dalam grid.
 Di dalam setiap iterasi, kondisi if-elif digunakan untuk menentukan karakter apa yang dicetak pada posisi (x, y). Misalnya, jika x == y, maka karakter yang dicetak adalah angka untuk diagonal utama.
+
 Soal 5: Pola Kotak Bertingkat
 Deskripsi: Menghasilkan pola kotak bertingkat yang terdiri dari beberapa lapisan, masing-masing dengan angka berbeda.
 Penjelasan Kode:
 Tepi luar grid dicetak dengan angka 1.
 Pada baris/kolom tertentu, angka 2 atau 3 dicetak berdasarkan posisinya, misalnya pada lapisan kedua (baris/kolom 2 dan 8) atau lapisan ketiga (baris/kolom 3 dan 7).
 Looping dilakukan dengan dua for untuk mengiterasi baris dan kolom, kemudian mencetak angka sesuai dengan kondisi yang telah ditentukan.
+
 Soal 6: Pola Kotak dengan Zona Tepi
 Deskripsi: Menampilkan grid dengan angka di tepi, angka 3 di zona dalam, dan angka 5 di pusat.
 Penjelasan Kode:
 Fungsi yang digunakan mirip dengan soal 5, tetapi kali ini lebih fokus pada pemberian angka 3 di zona dalam dan angka 5 di tengah grid.
 Kondisi if dan elif digunakan untuk memisahkan tepi luar, zona dalam, dan titik tengah, dan mencetak angka yang sesuai.
+
 Soal 7: Pola Kotak dengan Karakter dan Zona
 Deskripsi: Mencetak kotak dengan angka di tepi, angka 3 di kotak dalam, dan angka 2 di tengah, serta penggunaan karakter untuk mengisi pola.
 Penjelasan Kode:
 Looping digunakan untuk memeriksa posisi (x, y) dan mencetak angka atau karakter berdasarkan kondisi tertentu.
 Zona yang lebih dalam (seperti kotak dalam) dicetak dengan angka 3 dan titik tengah dicetak dengan angka 2.
+
 Soal 8: Pola Kotak dengan Zona Khusus
 Deskripsi: Ini adalah pola yang lebih kompleks, di mana beberapa zona diberi angka atau karakter khusus untuk menciptakan tampilan kotak bertingkat.
 Penjelasan Kode:
