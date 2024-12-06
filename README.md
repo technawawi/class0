@@ -1,6 +1,8 @@
 # class0
 Selesaikan video yang ada di dalam modul, dan jika ingin mencatat bisa di push ke link class berikut
 
+=====================================================================
+
 Logic dalam pemrograman adalah cara berpikir sistematis untuk menyelesaikan masalah secara terstruktur. Penting karena:  
 
 1. **Dasar pemecahan masalah**: Membantu memahami masalah dan merancang solusi.  
@@ -72,3 +74,66 @@ Dynamic Logic
 Dynamic Logic bisa dibuat dengan:
 1. Variabel
 2. Fungsi
+
+=====================================================================
+
+Jika kamu **sudah membuat branch `pti-004-ibnu` di repository `class0`**, berikut adalah langkah-langkah untuk menghubungkan folder lokalmu ke branch tersebut dan push perubahan ke sana:
+
+---
+
+### **Langkah 1: Clone Repository `class0`**
+Clone repository ke komputer lokalmu agar branch `pti-004-ibnu` terhubung dengan repo remote:  
+```bash
+git clone https://github.com/technawawi/class0/
+cd class0
+```
+
+---
+
+### **Langkah 2: Pindah ke Branch `pti-004-ibnu`**
+Pindah ke branch yang sudah dibuat:  
+```bash
+git checkout pti-004-ibnu
+```
+
+---
+
+### **Langkah 3: Salin atau Tambahkan File ke Folder Proyek**
+Salin file atau folder yang ingin kamu push ke dalam folder lokal repository (`class0`). Pastikan file sudah berada di direktori lokal repository tersebut.
+
+---
+
+### **Langkah 4: Tambahkan File ke Staging**
+Tambahkan file baru ke staging area:  
+```bash
+git add .
+```
+
+---
+
+### **Langkah 5: Commit Perubahan**
+Buat commit untuk mencatat perubahan:  
+```bash
+git commit -m "Menambahkan file untuk branch pti-004-ibnu"
+```
+
+---
+
+### **Langkah 6: Push ke Branch `pti-004-ibnu`**
+Push commit ke branch `pti-004-ibnu` di remote repository:  
+```bash
+git push origin pti-004-ibnu
+```
+
+---
+
+### **Hasil**
+File atau folder yang kamu tambahkan sekarang akan ada di branch `pti-004-ibnu` di repository `class0`.
+
+---
+
+### **Jika Masih Ada Kendala**
+- Jika terjadi error, berikan pesan errornya untuk bantuan lebih lanjut.
+- Jika ada file atau folder yang belum terlihat di remote, pastikan kamu bekerja di branch yang benar (`pti-004-ibnu`). 
+
+Semoga berhasil! 😊
