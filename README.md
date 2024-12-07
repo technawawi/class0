@@ -1,6 +1,7 @@
 # class0
 Selesaikan video yang ada di dalam modul, dan jika ingin mencatat bisa di push ke link class berikut
 
+
 =====================================================================
 
 Logic dalam pemrograman adalah cara berpikir sistematis untuk menyelesaikan masalah secara terstruktur. Penting karena:  
