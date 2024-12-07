@@ -128,7 +128,8 @@ for y in crange(-bound, bound):
     n = abs(x) if abs(x) > abs(y) else abs(y)
     n = 4 - n + 1
     if n % 2 == 0:
-      printNoLine(" ")
+      index = n // 2 - 1
+      printNoLine(alphabet[index])
     else:
       c = n // 2 + 1
       printNoLine(fibonacci(c))
